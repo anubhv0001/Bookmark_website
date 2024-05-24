@@ -1,4 +1,4 @@
-const CRUDCRUD_API = "https://crudcrud.com/api/46a7bfcd54d544b187bd8132e7dcb618";
+const CRUDCRUD_API = "https://crudcrud.com/api/bacb3b41fff449a485718b4aea592af3";
 
 // Event listener to add a bookmark
 document.getElementById('addBookmark').addEventListener('click', addBookmark);
