@@ -1,4 +1,4 @@
-const CRUDCRUD_API = "https://crudcrud.com/api/bacb3b41fff449a485718b4aea592af3";
+const CRUDCRUD_API = "https://crudcrud.com/api/bacb3b41fff449a485718b4aea592af3/bookmarks";
 
 // Event listener to add a bookmark
 document.getElementById('addBookmark').addEventListener('click', addBookmark);
@@ -171,7 +171,6 @@ function saveEditedBookmark() {
         .catch(error => console.error('Error saving edited bookmark:', error));
     }
 }
-
 
 // Initial fetch of bookmarks
 document.addEventListener('DOMContentLoaded', fetchBookmarks);
